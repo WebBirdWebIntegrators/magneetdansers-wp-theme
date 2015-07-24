@@ -1,0 +1,38 @@
+{
+    "key": "group_5553722ce6ef3",
+    "title": "Links",
+    "fields": [
+        {
+            "key": "field_5553723045c3e",
+            "label": "Link website",
+            "name": "wb_5553723045c3e",
+            "type": "url",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "links"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "modified": 1432989513
+}

@@ -1,0 +1,150 @@
+{
+    "key": "group_555e315c295f6",
+    "title": "Overzicht dansen",
+    "fields": [
+        {
+            "key": "field_555e317045c54",
+            "label": "Data",
+            "name": "wb_555e317045c54",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "min": "",
+            "max": "",
+            "layout": "row",
+            "button_label": "Nieuwe datum",
+            "sub_fields": [
+                {
+                    "key": "field_555e321ac574b",
+                    "label": "Datum",
+                    "name": "wb_555e321ac574b",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "readonly": 0,
+                    "disabled": 0
+                },
+                {
+                    "key": "field_55698d9066823",
+                    "label": "Niveau's",
+                    "name": "wb_55698d9066823",
+                    "type": "repeater",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "min": 1,
+                    "max": 3,
+                    "layout": "table",
+                    "button_label": "Voeg dans toe",
+                    "sub_fields": [
+                        {
+                            "key": "field_555e31b8c5749",
+                            "label": "Niveau",
+                            "name": "wb_555e31b8c5749",
+                            "type": "radio",
+                            "instructions": "",
+                            "required": 1,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "Beginners": "Beginners",
+                                "Tussengroep": "Tussengroep",
+                                "Gevorderden": "Gevorderden"
+                            },
+                            "other_choice": 0,
+                            "save_other_choice": 0,
+                            "default_value": "",
+                            "layout": "vertical"
+                        },
+                        {
+                            "key": "field_555e31ecc574a",
+                            "label": "Nummer",
+                            "name": "wb_555e31ecc574a",
+                            "type": "post_object",
+                            "instructions": "",
+                            "required": 1,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "post_type": [
+                                "wb_dance_library"
+                            ],
+                            "taxonomy": [],
+                            "allow_null": 0,
+                            "multiple": 0,
+                            "return_format": "object",
+                            "ui": 1
+                        },
+                        {
+                            "key": "field_5596747394e63",
+                            "label": "Herhaling",
+                            "name": "herhaling",
+                            "type": "radio",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "ja": "Ja",
+                                "neen": "Neen"
+                            },
+                            "other_choice": 0,
+                            "save_other_choice": 0,
+                            "default_value": "neen",
+                            "layout": "horizontal"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "page_dansen.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "modified": 1436160080
+}

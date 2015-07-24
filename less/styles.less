@@ -1,0 +1,43 @@
+@eagle-less-path: "../../eagle/less";
+
+@import "variables.less";
+@import "@{eagle-less-path}/mixins.less";
+@import "@{eagle-less-path}/reset.less";
+@import "fonts-fonts-com.less";
+@import "global.less";
+@import "@{eagle-less-path}/layout.less";
+@import "layout.less";
+
+@media only screen and (min-width: @bp1) {
+@import "bp1.less"; 
+}
+
+@media only screen and (min-width: @bp2) {
+@import "bp2.less";
+}
+
+@media only screen and (min-width: @bp3) {
+@import "bp3.less";
+}
+
+@media only screen and (min-width: @bp4) {
+@import "bp4.less";
+}
+
+@media only screen and (min-width: @bp5) {
+@import "bp5.less";
+}
+
+@media only screen and (min-width: @bp6) {
+@import "bp6.less";
+}
+
+@import "wordpress.less";
+
+@import "@{eagle-less-path}/plugins/woocommerce.less";
+@import "@{eagle-less-path}/plugins/woocommerce-eu-vat-number.less";
+@import "@{eagle-less-path}/plugins/woocommerceformsfields.less";
+@import "@{eagle-less-path}/plugins/gravityforms.less";
+@import "@{eagle-less-path}/plugins/mappress.less";
+@import "@{eagle-less-path}/plugins/vipersvideotags.less";
+@import "@{eagle-less-path}/plugins/acf.less";
